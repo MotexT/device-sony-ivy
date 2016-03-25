@@ -14,8 +14,8 @@
 
 include device/sony/kitakami/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := E6553
+TARGET_BOOTLOADER_BOARD_NAME := E6533
 
-BOARD_KERNEL_CMDLINE += androidboot.hardware=ivy
+BOARD_KERNEL_CMDLINE += androidboot.hardware=ivy_dsds
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
